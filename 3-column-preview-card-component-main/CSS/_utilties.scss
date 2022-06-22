@@ -1,0 +1,9 @@
+@function rem($size) {
+    @return $size / 16px * 1rem;
+}
+
+:root {
+    --accent-1: hsl(31, 77%, 52%);
+    --accent-2: hsl(184, 100%, 22%);
+    --font-body: 'Lexend Deca', helvetica, sans-serif;
+}

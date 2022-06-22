@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --Lime_Green: rgb(29, 180, 137);
+    --Bright_Red: rgb(220, 65, 76);
+
+    --Facebook: rgb(25, 143, 245);
+    --Twitter: rgb(28, 160, 242);
+    --Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    --YouTube: rgb(196, 3, 42);
+
+    --Toggle: linear-gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --Toggle: rgb(174, 179, 203);
+
+    --White_BG: rgb(255, 255, 255);
+    --Very_Pale_Blue_Top_BG_Pattern: rgb(245, 247, 255);
+    --Light_Grayish_Blue_Card_BG: rgb(240, 242, 250);
+    --Dark_Grayish_Blue_Text: rgb(99, 104, 126);
+    --Very_Dark_Blue_Text: rgb(30, 32, 42);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

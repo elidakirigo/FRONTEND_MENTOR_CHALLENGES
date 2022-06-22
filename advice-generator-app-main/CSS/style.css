@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+:root {
+  --Light_Cyan: rgb(206, 227, 233);
+  --Neon_Green: rgb(82, 255, 168);
+  --Grayish_Blue: rgb(78, 93, 115);
+  --Dark_Grayish_Blue: rgb(50, 58, 73);
+  --Dark_Blue: rgb(31, 38, 50);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: var(--Dark_Blue);
+}
+
+main {
+  max-width: 400px;
+  background-color: var(--Dark_Grayish_Blue);
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-shadow: 0px 5px 28px 5px rgba(0, 0, 0, 0.403);
+          box-shadow: 0px 5px 28px 5px rgba(0, 0, 0, 0.403);
+  font-family: 'Manrope';
+}
+
+main span {
+  color: var(--Neon_Green);
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+main blockquote {
+  padding-bottom: 20px;
+  color: var(--Light_Cyan);
+  text-align: center;
+  font-size: 20px;
+}
+
+main img.divider {
+  width: 100%;
+}
+
+main .pattern-divider {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 10px;
+}
+
+main .dice {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--Neon_Green);
+  padding: 19px 19px 15px;
+  cursor: pointer;
+  bottom: -20px;
+}
+
+main .dice:hover {
+  -webkit-box-shadow: 2px 8px 22px 10px var(--Neon_Green);
+          box-shadow: 2px 8px 22px 10px var(--Neon_Green);
+}
+
+main .dice img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
