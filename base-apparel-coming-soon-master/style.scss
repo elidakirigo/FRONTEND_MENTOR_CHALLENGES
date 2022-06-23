@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+
 :root {
     --Desaturated_Red: rgb(206, 151, 151);
     --Soft_Red: rgb(249, 98, 98);
@@ -28,7 +29,7 @@ main {
     display: flex;
     justify-content: center;
     background-color: white;
-    font-family: 'Josefin Sans' , sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 
     img {
         // max-width: 630px;
@@ -42,12 +43,12 @@ main {
         h1 {
             font-size: 62px;
             color: var(--Desaturated_Red);
-            padding: 15% 0 10% 0;
+            padding: 15% 0 6% 0;
             font-weight: 100;
-            text-transform:uppercase;
+            text-transform: uppercase;
             letter-spacing: 9px;
 
-            span{
+            span {
                 color: black;
                 font-weight: 400;
             }
@@ -56,6 +57,7 @@ main {
         p {
             // padding: 30px 0;
             color: var(--Desaturated_Red);
+            line-height: 1.5;
         }
 
         .c-input {
@@ -69,10 +71,10 @@ main {
                 border-radius: 50px;
                 width: 60%;
                 outline-color: var(--Desaturated_Red);
-                border: 2px solid var(--Desaturated_Red);
+                border: 1px solid var(--Desaturated_Red);
 
                 &::placeholder {
-                    color: rgba(128, 128, 128, 0.903);
+                    color: var(--Desaturated_Red);
                 }
             }
 
@@ -86,8 +88,9 @@ main {
                 display: flex;
                 margin-left: -40px;
                 box-shadow: 1px 5px 22px 1px var(--Desaturated_Red);
-                &:hover{
-                    background:var(--Linear);
+
+                &:hover {
+                    background: var(--Linear);
                 }
             }
 
