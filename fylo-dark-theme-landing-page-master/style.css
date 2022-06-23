@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 :root {
   --Dark_Blue_intro_and_email_sign_up_background: hsl(217, 28%, 15%);
   --Dark_Blue_main_background: hsl(218, 28%, 13%);
@@ -8,6 +9,8 @@
   --Light_Red_error: hsl(0, 100%, 63%);
   --White: hsl(0, 0%, 100%);
   --light_gray: rgb(206, 206, 206);
+  --font_family_open_sans: "Open Sans";
+  --font_family_Raleway: "Raleway";
 }
 
 * {
@@ -38,6 +41,7 @@ main {
   max-width: 1440px;
   width: 100%;
   text-transform: capitalize;
+  font-family: var(--font_family_open_sans);
 }
 
 main .header {
@@ -131,6 +135,7 @@ main .container-content .illustration h1 {
   max-width: 600px;
   text-align: center;
   padding-bottom: 30px;
+  font-family: var(--font_family_Raleway);
 }
 
 main .container-content .illustration p {
@@ -150,6 +155,7 @@ main .container-content .illustration .call-to-action button {
   border: none;
   color: var(--White);
   font-weight: 700;
+  font-family: var(--font_family_Raleway);
   background: linear-gradient(135deg, #339ecc, #6fe2e6, #339ecc);
 }
 
@@ -186,6 +192,7 @@ main .container-content .credibility .credibility_column .cred_details {
 
 main .container-content .credibility .credibility_column .cred_details h1 {
   color: var(--White);
+  font-family: var(--font_family_Raleway);
   font-size: 20px;
   padding-bottom: 15px;
 }
@@ -235,6 +242,7 @@ main .container-content .stay_productive .stay_productive_details {
 
 main .container-content .stay_productive .stay_productive_details h1 {
   color: var(--White);
+  font-family: var(--font_family_Raleway);
   padding-bottom: 20px;
 }
 
@@ -341,6 +349,7 @@ main .container-content .newsletter {
 }
 
 main .container-content .newsletter h1 {
+  font-family: var(--font_family_Raleway);
   color: var(--White);
 }
 
@@ -394,6 +403,7 @@ main .container-content .newsletter .newsletter_email button {
   border: none;
   color: var(--White);
   font-weight: 700;
+  font-family: var(--font_family_Raleway);
   background: linear-gradient(135deg, #339ecc, #6fe2e6, #339ecc);
 }
 

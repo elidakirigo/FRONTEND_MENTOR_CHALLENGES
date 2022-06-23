@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 :root {
     --Dark_Blue_intro_and_email_sign_up_background: hsl(217, 28%, 15%);
     --Dark_Blue_main_background: hsl(218, 28%, 13%);
@@ -9,6 +10,8 @@
     --Light_Red_error: hsl(0, 100%, 63%);
     --White: hsl(0, 0%, 100%);
     --light_gray: rgb(206, 206, 206);
+    --font_family_open_sans: "Open Sans";
+    --font_family_Raleway: "Raleway";
 }
 
 * {
@@ -29,6 +32,7 @@ main {
     max-width: 1440px;
     width: 100%;
     text-transform: capitalize;
+    font-family: var(--font_family_open_sans);
 
     .header {
         display: flex;
@@ -100,6 +104,7 @@ main {
                 max-width: 600px;
                 text-align: center;
                 padding-bottom: 30px;
+                font-family: var(--font_family_Raleway);
             }
 
             p {
@@ -118,7 +123,8 @@ main {
                     border: none;
                     color: var(--White);
                     font-weight: 700;
-                    background: linear-gradient(135deg, rgb(51, 158, 204), rgb(111, 226, 230), rgb(51, 158, 204));
+                font-family: var(--font_family_Raleway);
+                background: linear-gradient(135deg, rgb(51, 158, 204), rgb(111, 226, 230), rgb(51, 158, 204));
 
                     &:hover {
                         background: linear-gradient(135deg, rgb(101, 226, 217), rgb(212, 254, 255), rgb(101, 226, 217));
@@ -144,7 +150,8 @@ main {
 
                     h1 {
                         color: var(--White);
-                        font-size: 20px;
+                font-family: var(--font_family_Raleway);
+                font-size: 20px;
                         padding-bottom: 15px;
                     }
 
@@ -188,7 +195,8 @@ main {
 
                 h1 {
                     color: var(--White);
-                    padding-bottom: 20px;
+                font-family: var(--font_family_Raleway);
+                padding-bottom: 20px;
                 }
 
                 p {
@@ -291,7 +299,7 @@ main {
             text-align: center;
 
             h1 {
-                // max-width: 50%;
+                font-family: var(--font_family_Raleway);
                 color: var(--White);
             }
 
@@ -336,7 +344,8 @@ main {
                     border: none;
                     color: var(--White);
                     font-weight: 700;
-                    background: linear-gradient(135deg, rgb(51, 158, 204), rgb(111, 226, 230), rgb(51, 158, 204));
+                font-family: var(--font_family_Raleway);
+                background: linear-gradient(135deg, rgb(51, 158, 204), rgb(111, 226, 230), rgb(51, 158, 204));
 
                     &:hover {
                         background: linear-gradient(135deg, rgb(101, 226, 217), rgb(212, 254, 255), rgb(101, 226, 217));
