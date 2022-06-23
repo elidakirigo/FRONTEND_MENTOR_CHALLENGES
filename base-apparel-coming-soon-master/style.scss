@@ -69,7 +69,7 @@ main {
                 border-radius: 50px;
                 width: 60%;
                 outline-color: var(--Desaturated_Red);
-                border: 1px solid rgba(128, 128, 128, 0.213);
+                border: 2px solid var(--Desaturated_Red);
 
                 &::placeholder {
                     color: rgba(128, 128, 128, 0.903);
@@ -92,11 +92,8 @@ main {
             }
 
             img {
-                // color: white;
-                // padding: 10px 20px;
                 width: 10px;
                 align-self: center;
-                // height: 10%;
                 max-width: 30px;
                 min-width: 8px;
             }

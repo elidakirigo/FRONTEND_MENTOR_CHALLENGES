@@ -1,31 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap");
 :root {
-  --Desaturated_Red: #ce9797;
-  --Soft_Red: #f96262;
-  --Dark_Grayish_Red: #413a3a;
-  --Linear: linear-gradient(135deg, #ffd0d0, #f68598);
-  --Linear2: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  --Desaturated_Red: rgb(206, 151, 151);
+  --Soft_Red: rgb(249, 98, 98);
+  --Dark_Grayish_Red: rgb(65, 58, 58);
+  --Linear: linear-gradient(135deg, rgb(255, 208, 208), rgb(246, 133, 152));
+  --Linear2: linear-gradient(135deg, rgb(248, 191, 191), hsl(0, 74%, 74%));
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #e4e4e4;
 }
 
 main {
   max-width: 1040px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   font-family: 'Josefin Sans' , sans-serif;
 }
@@ -58,6 +69,8 @@ main .c-content p {
 }
 
 main .c-content .c-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 30px;
 }
@@ -67,7 +80,19 @@ main .c-content .c-input input {
   border-radius: 50px;
   width: 60%;
   outline-color: var(--Desaturated_Red);
-  border: 1px solid rgba(128, 128, 128, 0.213);
+  border: 2px solid var(--Desaturated_Red);
+}
+
+main .c-content .c-input input::-webkit-input-placeholder {
+  color: rgba(128, 128, 128, 0.903);
+}
+
+main .c-content .c-input input:-ms-input-placeholder {
+  color: rgba(128, 128, 128, 0.903);
+}
+
+main .c-content .c-input input::-ms-input-placeholder {
+  color: rgba(128, 128, 128, 0.903);
 }
 
 main .c-content .c-input input::placeholder {
@@ -79,9 +104,12 @@ main .c-content .c-input span {
   border-radius: 50px;
   cursor: pointer;
   background: var(--Linear2);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: -40px;
-  box-shadow: 1px 5px 22px 1px var(--Desaturated_Red);
+  -webkit-box-shadow: 1px 5px 22px 1px var(--Desaturated_Red);
+          box-shadow: 1px 5px 22px 1px var(--Desaturated_Red);
 }
 
 main .c-content .c-input span:hover {
@@ -90,7 +118,10 @@ main .c-content .c-input span:hover {
 
 main .c-content .c-input img {
   width: 10px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   max-width: 30px;
   min-width: 8px;
 }
+/*# sourceMappingURL=style.css.map */
